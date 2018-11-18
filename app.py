@@ -28,5 +28,4 @@ print(result_1)
 def str_conbine(str1, str2):
     return str1 + str2
 
-
 result = str_conbine("Kazuma", "Takahashi")
