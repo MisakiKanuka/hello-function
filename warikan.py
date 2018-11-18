@@ -14,3 +14,20 @@ amount = [table_1, table_2, table_3]
 table_1 = 1500
 table_2 = 2000
 table_3 = 3647
+
+# このコードみてどうですか？
+
+amount = 1500
+number_of_people = 3
+
+print(f"1人あたり: {amount // number_of_people}円, 端数: {amount % number_of_people}円")
+
+amount = 2000
+number_of_people = 3
+
+print(f"1人あたり: {amount // number_of_people}円, 端数: {amount % number_of_people}円")
+
+amount = 3000
+number_of_people = 4
+
+print(f"1人あたり: {amount // number_of_people}円, 端数: {amount % number_of_people}円")
